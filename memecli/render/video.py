@@ -1,4 +1,5 @@
 from moviepy.editor import VideoFileClip, TextClip, CompositeVideoClip
+from ..helpers.Misc import randomString
 
 class VideoRender:
     config = {}
@@ -33,7 +34,9 @@ class VideoRender:
         self.out.duration = self.template.duration
 
     def save(self, file: str):
-        self.out.write_videofile(file, fps=30)
+        temp_audio = 'tmp/tmp_' + randomString(6) + '.mp3'
+        # Write to output
+        self.out.write_videofile(file, fps=30, temp_audiofile=temp_audio)
 
     def cleanup(self):
         for clip in self.clips:

@@ -1,4 +1,10 @@
 __pycache__
 /.vscode
 /venv
+
+# Generated files output
 /out
+
+# Temp files
+/tmp/*
+!/tmp/.gitkeep

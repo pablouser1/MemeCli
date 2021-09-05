@@ -12,7 +12,7 @@ The folder containing all this files will be used to access it.
 
 ## Config file
 The JSON file needs to have the following structure
-```json
+```js
 {
   "type": "video", // Set template type, can be "photo" or "video"
   "source": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", // Source of template, not used yet

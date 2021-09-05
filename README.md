@@ -28,4 +28,4 @@ Check the [following file](docs/ADD_TEMPLATE.md) for info
 # Credits
 * [MoviePy](https://github.com/Zulko/moviepy)
 * [Pillow](https://github.com/python-pillow/Pillow)
-* [ImageText helper class](https://gist.github.com/pojda/8bf989a0556845aaf4662cd34f21d269) partially used on [this file](memegenerator/render/photo.py)
+* [ImageText helper class](https://gist.github.com/pojda/8bf989a0556845aaf4662cd34f21d269) partially used on [this file](memecli/render/photo.py)

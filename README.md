@@ -7,6 +7,9 @@ Build your memes easily using just a terminal
 * PIL (Photo editing)
 * MoviePy (Video editing)
 
+# Meme List
+Check [this file](LIST_MEMES.md) for a list with all the available memes
+
 # Installation
 ```bash
 python -m pip install -r requirements.txt
@@ -17,13 +20,13 @@ python -m pip install -r requirements.txt
 python cli.py 'TEMPLATE_NAME' 'OUT_DIR' -t 'TEXT1' 'TEXT2' 'TEXT3'
 ```
 
-# How to add a template
-Check the [following file](docs/ADD_TEMPLATE.md) for info
-
 # TODO
 * List all memes using command line
 * Better text support on photos
 * Add photos to video
+
+# How to add a template
+Check [this file](docs/ADD_TEMPLATE.md) for info
 
 # Credits
 * [MoviePy](https://github.com/Zulko/moviepy)

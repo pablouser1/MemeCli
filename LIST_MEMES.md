@@ -1,7 +1,7 @@
 # List of memes
 ## Images
-* Fernanfloo dresses up
+* Fernanfloo dresses up (fernanfloo-dresses-up)
 
 ## Videos
-* Fan vs Enjoyer
-* Fans explaining
+* Fan vs Enjoyer (fan-enjoyer)
+* Fan explaining (fan-explaining)

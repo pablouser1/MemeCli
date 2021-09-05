@@ -1,4 +1,4 @@
-# MemeGenerator
+# MemeCli
 Build your memes easily using just a terminal
 
 # Requierements

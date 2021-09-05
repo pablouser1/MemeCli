@@ -1,0 +1,22 @@
+{
+  "type": "video",
+  "source": "https://www.youtube.com/watch?v=HrkNwjruz5k",
+  "texts": [
+    {
+      "pos": [0, 0],
+      "size": [360, 120],
+      "duration": [
+        [0, 0],
+        null
+      ]
+    },
+    {
+      "pos": [360, 0],
+      "size": [360, 120],
+      "duration": [
+        [0, 0],
+        null
+      ]
+    }
+  ]
+}

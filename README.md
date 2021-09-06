@@ -8,7 +8,7 @@ Build your memes easily using just a terminal
 * MoviePy (Video editing)
 
 # Meme List
-Check [this file](LIST_MEMES.md) for a list with all the available memes
+Check [this file](templates/list.json) for a list with all the available memes
 
 # Installation
 ```bash

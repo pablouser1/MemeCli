@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
-from memecli.helpers.Config import getConfig
+
+from memecli.common import settings
 
 class PhotoRender:
     config = {}
@@ -45,7 +46,7 @@ class PhotoRender:
         if 'texts' in self.config:
             for i in range(len(self.config["texts"])):
                 text_config = self.config["texts"][i]
-                self.write_text(tuple(text_config["pos"]), texts[i], font_filename="/usr/share/fonts/TTF/DejaVuSerif.ttf", max_width=text_config["size"][0], max_height=text_config["size"][1])
+                self.write_text(tuple(text_config["pos"]), texts[i], font_filename=settings.font, max_width=text_config["size"][0], max_height=text_config["size"][1])
 
     def save(self, file: str):
         self.image.save(file)

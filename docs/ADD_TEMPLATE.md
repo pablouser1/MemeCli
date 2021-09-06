@@ -9,6 +9,7 @@ This project use the following structure for a template:
     └── template.jpg                  # Source file if photo
 
 The folder containing all this files will be used to access it.
+MAKE SURE TO ADD YOUR TEMPLATE TO THE list.json FILE
 
 ## Config file
 The JSON file needs to have the following structure

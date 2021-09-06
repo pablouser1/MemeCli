@@ -1,6 +1,8 @@
 __pycache__
 /.vscode
 /venv
+# Project config
+/settings.json
 
 # Generated files output
 /out

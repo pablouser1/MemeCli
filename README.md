@@ -15,13 +15,26 @@ Check [this file](LIST_MEMES.md) for a list with all the available memes
 python -m pip install -r requirements.txt
 ```
 
+After you install the dependencies, you need to start creating the config.
+Copy the file settings.sample.json as settings.json and follow [this structure](docs/SETTINGS.md)
+
 # Usage
+There are multiple modes, the first one is render mode which is non-interactive and accepts arguments
 ```bash
-python cli.py 'TEMPLATE_NAME' 'OUT_DIR' -t 'TEXT1' 'TEXT2' 'TEXT3'
+python cli.py render -i 'TEMPLATE_NAME' -o 'OUT_DIR' --texts 'TEXT1' 'TEXT2' 'TEXT3'
+```
+
+The second one is interactive mode, is interactive and asks the details it needs to generate a meme
+```bash
+python cli.py interactive
+```
+
+The third one is listing mode, which only shows the available memes and details about them
+```bash
+python cli.py listing
 ```
 
 # TODO
-* List all memes using command line
 * Better text support on photos
 * Add photos to video
 
